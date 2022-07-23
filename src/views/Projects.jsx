@@ -16,7 +16,6 @@ export default function Projects() {
     dispatch(userDataSuccess(usersData));
   }
 
-
   useEffect(() => {
     dispatch(userDataInitiate());
     getUsers();
